@@ -197,6 +197,8 @@ function generateTags(){
   }
 // pobrać element z html i wkleić allTagsHtml
 
+  allTagsHTML += '<li><a href="#tag-'+ tag +'">'+ tag +'</a>(' + allTags[tag] + ')</li>';
+  tagList.innerHTML = allTagsHTML;
 
 }   
   
